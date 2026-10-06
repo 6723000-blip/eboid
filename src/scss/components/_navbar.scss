@@ -1,27 +1,27 @@
 // top navbar
 .navbar-brand a {
   p {
-    color: $primaryColor;
+    color: #d309c5;
     font-size: 1rem;
   }
   span {
-    color: $secondaryColor;
+    color: #0ee619;
   }
 }
 
 .navbar-end a {
-  color: $secondaryColor;
+  color: #d309c5;
 }
 
 .app-sticky {
   position: sticky;
   top: 0;
   z-index: 1000; /* дээр харагдахаар */
-  background-color: #f5f5f5; /* эсвэл өөр өнгө */
+  background-color: #6d1be9; /* эсвэл өөр өнгө */
 }
 
 .app-shadow {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(4, 111, 2, 0.15);
 }
 
 .navbar-brand .image img {
